@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="suduku.css"> </link>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Sudoku Solver</title>
+</head>
+<body>
+    <h1 id="head" >Sudoku Solver</h1>
+    <div id="griddetails">
+        Fill in the 9X9 grid with digits from 1 to 9
+    </div>
+    <section>
+        <div>
+            <input type="text" class="box grey" required><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey">
+            <br>
+            <input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"> 
+            <br>
+            <input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey">
+            <br>
+            <input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"> 
+            <br>
+            <input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box">
+            <br>
+            <input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"> 
+            <br>
+            <input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey">
+            <br>
+            <input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"> 
+            <br>
+            <input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box"><input type="text" class="box grey"><input type="text" class="box grey"><input type="text" class="box grey">
+            <br>
+       </div>
+    </section>
+
+    <div class="container">
+
+             <button class="btn" id="solve" onclick="userInput()" >Solve</button>
+             <!-- <button>Generate Random</button> -->
+             <button class="btn" id="reset" onclick="reset()">Reset</button>
+
+    </div>
+    <div class="outer-warning">
+        <div class="warning">   
+        </div>
+    </div>
+        
+    <script src="./sudo.js">
+         
+    </script>
+    
+</body>
+</html>
