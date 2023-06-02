@@ -15,7 +15,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(session({ secret: "This is secret", saveUninitialized: true, resave: true }))
 
 
-app.listen("8000", (req, res) => {
+app.listen("80", (req, res) => {
     console.log("Listening to port 8000");
 })
 
